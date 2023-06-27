@@ -111,6 +111,6 @@ public class NotSoSimpleAI : CommonAIBase
             CurrentInteraction = null;
         }
         else
-            Debug.Log($"Going to {CurrentInteraction.DisplayName} w {selectedObject.DisplayName}");
+            Debug.Log($"Going to {CurrentInteraction.DisplayName} {selectedObject.DisplayName}");
     }
 }
